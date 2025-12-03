@@ -1,5 +1,4 @@
 function Restaurant({ restaurant }) {
-  console.log(restaurant);
   return (
     <article className="restaurant">
       <img src={restaurant.image} alt={restaurant.name} />
